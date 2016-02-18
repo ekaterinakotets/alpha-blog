@@ -1,2 +1,43 @@
+$navbar-default-bg: #004466;
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+#logo.hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.center{
+  text-align: center;
+}
+
+.jumbotron{
+  background-image: url(http://www.psi.org/wp-content/themes/f1ux/images/map-transparent.png);
+  background-size: cover;
+  height: 600px;
+  background-color: #e6f2ff;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+}
+
+footer{ 
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-top: 1px solid #e6f7ff;
+  color: black;
+}
+
+footer small{
+  float: right;
+}
