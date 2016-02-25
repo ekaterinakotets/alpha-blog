@@ -18,6 +18,11 @@ $navbar-default-bg: #004466;
   text-align: center;
 }
 
+#articleslink {
+  color: #ff80ff;
+}
+
+
 .jumbotron{
   background-image: url(http://www.psi.org/wp-content/themes/f1ux/images/map-transparent.png);
   background-size: cover;
@@ -28,6 +33,7 @@ $navbar-default-bg: #004466;
 .jumbotron h1 {
   font-weight: bold;
 }
+
 
 .article-actions {
   border-top: 1px solid black;
